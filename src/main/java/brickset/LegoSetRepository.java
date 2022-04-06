@@ -74,9 +74,9 @@ public class LegoSetRepository extends Repository<LegoSet> {
         var repository = new LegoSetRepository();
         System.out.println(repository.countLegoSetsWithTag("Microscale"));
         System.out.println(repository.countLegotheme("Duplo"));
-        //repository.printLegotheme("Duplo");
-        //System.out.println(repository.countMoreLegoPieciesthan(100));
-        //System.out.println(repository.averagePieceNumber());
-        //repository.printNamesSorted();
+        repository.printLegotheme("Duplo");
+        System.out.println(repository.countMoreLegoPieciesthan(100));
+        System.out.println(repository.averagePieceNumber());
+        repository.printNamesSorted();
     }
 }
